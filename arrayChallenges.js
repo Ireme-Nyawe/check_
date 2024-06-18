@@ -11,3 +11,9 @@ str = "apple,banana,cherry";
 result = str.split(",");
 console.log(result); // Output: ["apple", "banana", "cherry"]
 
+// split with limit 
+ str = "one,two,three,four,five";
+ result = str.split(",", 3);
+console.log(result); // Output: ["one", "two", "three"]
+
+
