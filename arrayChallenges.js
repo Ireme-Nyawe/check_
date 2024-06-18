@@ -1,6 +1,13 @@
 /** we can change the string into array using split()
  * string.split(separator, limit)
  */
-const str = "Hello World";
-const result = str.split(" ");
+var str = "Hello World";
+var result = str.split(" ");
 console.log(result); // Output: ["Hello", "World"]
+
+
+// Using a Comma as Separator:
+str = "apple,banana,cherry";
+result = str.split(",");
+console.log(result); // Output: ["apple", "banana", "cherry"]
+
