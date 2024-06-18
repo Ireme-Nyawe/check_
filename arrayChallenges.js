@@ -19,3 +19,10 @@ console.log(result); // Output: ["one", "two", "three"]
 str = "Hello";
 result = str.split("");
 console.log(result); // Output: ["H", "e", "l", "l", "o"]
+
+// parsig csv data
+const csv = "name,age,city\nJohn,30,New York\nJane,25,Los Angeles";
+const rows = csv.split("\n");
+const data = rows.map(row => row.split(","));
+console.log(data);
+// Output: [["name", "age", "city"], ["John", "30", "New York"], ["Jane", "25", "Los Angeles"]]
