@@ -26,3 +26,10 @@ const rows = csv.split("\n");
 const data = rows.map(row => row.split(","));
 console.log(data);
 // Output: [["name", "age", "city"], ["John", "30", "New York"], ["Jane", "25", "Los Angeles"]]
+
+// extracting words from sentences
+const sentence = "The quick brown fox jumps over the lazy dog";
+const words = sentence.split(" ");
+console.log(words);
+// Output: ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]
+
