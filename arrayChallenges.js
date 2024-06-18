@@ -38,3 +38,8 @@ str = "apple;banana,orange|grape";
 result = str.split(/[,;|]/);
 console.log(result);
 // Output: ["apple", "banana", "orange", "grape"]
+
+// split and change to number
+str = "1,2,3,5,3";
+result = str.split(",").map(Number);
+console.log(result);
